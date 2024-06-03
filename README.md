@@ -1,8 +1,6 @@
-(Will update dev is too tired so he is sleeping, until then enjoy the preview link xD)
+# Promotional popup Component
 
-# Sample Component
-
-Utilize this section to detail the component, explaining the specific problem it addresses, its ideal use cases, and step-by-step instructions on how to implement it. This comprehensive description will help users understand its relevance and functionality, ensuring they can effectively integrate and leverage the component in their Shopify storefronts. 
+This promotional popup (Tailwind) component has been built to display a popup that shows the latest ongoing offers/sales/promotions that an e-commerce store has to offer once per user session! 
 
 **Live Preview Link**:  https://fozail-ahmad-store.myshopify.com/?preview_theme_id=136163885237
 
@@ -10,30 +8,28 @@ Utilize this section to detail the component, explaining the specific problem it
 
 ## Features
 
- - Feature 1 [*Example: Option to show / hide slider dots*]
- - Feature 2 [*Example: Option to switch layout grid / slider*]
- - Feature 3 [*Example: Option to customise rating stars*]
+ - Feature 1 Options for mobile and desktop popup banner
+ - Feature 2 Option for the popup banner link
+ - Feature 3 Displays a popup banner when the user lands on the website for the 1st the time in the user journey
 
 
 ## Dependencies
 
- - Dependency 1 [*Example: Splide slider (https://splidejs.com/)*]
- - Dependency 2 [*Example: Animate CSS (https://animate.style/)*]
- - Dependency 3 [*Example: Google sheet API Key*]
+ - Dependency 1 Tailwind CSS (v3.4.3)
 
 
 ## Implementation Steps
 
  - ### Step 1: 
-   Navigate to `theme.liquid` file under Layout folder
+   Add a new section file under the sections folder and copy/paste the code from 'section-promotional-popup.liquid'
    
   - ### Step 2:
-	 Add the below code / Copy the code from `src` folder and paste it in
-   `theme.liquid` file just above closing of `</body>` tag
+    Add a new js file under the assets folder and copy/paste the code from 'promotional-popup.js'
+
+ - ### Step 3:
+    Ensure that tailwind css has been installed in your theme for this version of promotional popup to works!
 
 # Important Notes
 
 >  - The component employs its own styling for the grid system. For further optimization, consider using the classes provided by the
 > theme.
->  - The component utilizes the splide.js slider. If your theme already includes a different slider library, you should consider using that to
-> maintain consistency.
